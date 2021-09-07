@@ -3,16 +3,27 @@ import Main from './components/Main'
 import EconomicHistory from './components/EconomicHistory';
 import Partidas from './components/Partidas';
 import Social from './components/Social';
+import Nav from './components/Nav';
+// for common hosts
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';    
+// for github pages
+import { HashRouter } from "react-router-dom";  
 
 function App() {
   return (
     <div className="App">
 
-    <Main />
-    <EconomicHistory />
-    <Partidas />
-    <Social />
-
+<HashRouter>
+      <Nav />
+        <Switch>
+            <Route exact path="/" exact component={Main}/>
+            <Route path="/components/Main" exact component={Main}/>
+            <Route path="/components/EconomicHistory" exact component={EconomicHistory}/>
+            <Route path="/components/Partidas" exact component={Partidas}/>
+            <Route path="/components/Social" exact component={Social}/>
+            <Social />
+        </Switch>  
+</HashRouter>   
     </div>
   );
 }
