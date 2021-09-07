@@ -23,33 +23,18 @@ nav{
     text-decoration: none;
     color: white;
 }
-
+.toggleButton{
+    display: none;
+}
 
 @media only screen and (max-width: 500px ) {
 
     .toggleButton{
-        
+        display: block;
         position: sticky;
         margin-left: 1em;
     }
-/* 
-    .slide-nav{
-        display: block;
-        width: 50vw;
-        height: 90vh;
-        background-color: rgba(179, 0, 0, 0.466);
-        position: absolute;
-        transition: 0.4s ease-in-out;
-    }
-    .slide-nav-negative{
-        margin-left: -20vw;
-        display: block;
-        width: 50vw;
-        height: 90vh;
-        background-color: rgba(179, 0, 0, 0.466);
-        position: absolute;
-        transition: 0.4s ease-in-out;
-    } */
+
     .nav-list{
         display: none;
     }
