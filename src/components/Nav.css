@@ -23,3 +23,11 @@ nav{
     text-decoration: none;
     color: white;
 }
+
+
+@media only screen and (max-width: 500px ) {
+
+    .nav-list{
+        display: none;
+    }
+}
