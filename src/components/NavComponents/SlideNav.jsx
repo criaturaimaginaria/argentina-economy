@@ -2,9 +2,15 @@ import React from 'react'
 import './SlideNav.css'
 import {Link} from 'react-router-dom'
 
-export const SlideNav = () => {
+export const SlideNav = (props) => {
+
+    const toggleNav = (props.toggleNav)
+
+    const toggleClass = (toggleNav) ?  "slide-nav" :  "slide-nav-negative" 
+
     return (
-        <div className="slide-nav">
+      <div>
+        <div className={toggleClass} >
              <ul className="nav-list2">
                 <Link to='/components/Main'>
                     <li>Main</li>
@@ -21,6 +27,7 @@ export const SlideNav = () => {
             </ul>
             
         </div>
+     </div>     
     )
 }
 

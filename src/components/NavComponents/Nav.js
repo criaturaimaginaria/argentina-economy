@@ -2,25 +2,30 @@ import React, {useState, useEffect} from 'react';
 import './Nav.css';
 import './SlideNav.css';
 import {Link} from 'react-router-dom'
+// import ToggleButton from './ToggleButton.jsx'
+import SlideNav from './SlideNav';
 
 
 export const Nav = () => {
-
-        const [toggle, setToggle] = useState (false)
+    const [toggle, setToggle] = useState (false)
         
 
-        useEffect(()=>{
-          console.log(toggle) 
-        });
+    useEffect(()=>{
+      console.log(toggle) 
+    });
 
-        const toggleState = () => {
-            setToggle(!toggle)
-        }
+    const toggleState = () => {
+        setToggle(!toggle)
+    }
+     
 
     return (
         <nav>
 
-            <button onClick={toggleState }>hola</button>
+           
+       <SlideNav toggleNav ={toggle} />
+      <button onClick={toggleState } className="toggleButton" >hola !!ttt!!</button> 
+        {/* <ToggleButton /> */}
 
             <ul className="nav-list">
                 <Link to='/components/Main'>
