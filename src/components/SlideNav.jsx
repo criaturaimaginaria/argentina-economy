@@ -1,12 +1,11 @@
-import React from 'react';
-import './Nav.css';
+import React from 'react'
+import './SlideNav.css'
 import {Link} from 'react-router-dom'
 
-
-export const Nav = () => {
+export const SlideNav = () => {
     return (
-        <nav>
-            <ul className="nav-list">
+        <div className="slide-nav">
+             <ul className="nav-list2">
                 <Link to='/components/Main'>
                     <li>Main</li>
                 </Link>
@@ -19,13 +18,10 @@ export const Nav = () => {
                 <Link to='/components/Social'>
                     <li>Social</li>
                 </Link>
-
-                
             </ul>
-             
-        </nav>
-       
+            
+        </div>
     )
 }
 
-export default Nav
+export default SlideNav

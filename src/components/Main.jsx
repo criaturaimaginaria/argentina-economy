@@ -1,4 +1,5 @@
 import React from 'react'
+import './Main.css'
 
 export const Main = () => {
     return (
@@ -6,7 +7,7 @@ export const Main = () => {
           
                 <h1>Main</h1>
            
-            <h2>hehe</h2>
+          
         </div>
     )
 }

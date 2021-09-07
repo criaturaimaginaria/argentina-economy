@@ -4,6 +4,8 @@ import EconomicHistory from './components/EconomicHistory';
 import Partidas from './components/Partidas';
 import Social from './components/Social';
 import Nav from './components/Nav';
+
+import  SlideNav  from './components/SlideNav';
 // for common hosts
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';    
 // for github pages
@@ -15,6 +17,7 @@ function App() {
 
 <HashRouter>
       <Nav />
+      <SlideNav />
         <Switch>
             <Route exact path="/" exact component={Main}/>
             <Route path="/components/Main" exact component={Main}/>
@@ -23,7 +26,10 @@ function App() {
             <Route path="/components/Social" exact component={Social}/>
             <Social />
         </Switch>  
+        
 </HashRouter>   
+
+     
     </div>
   );
 }

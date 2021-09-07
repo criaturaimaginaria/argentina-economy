@@ -1,6 +1,10 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
 
 .main{
-    height: 100px;
-    width: 100px;
+    width: 100vw;
+    height: 90vh;
     background-color: grey;
 }
