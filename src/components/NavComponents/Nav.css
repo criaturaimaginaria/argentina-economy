@@ -2,7 +2,7 @@ nav{
     height: 4vh;
     width: 100vw;
     display: flex;
-    justify-content: space-around;
+    /* justify-content: space-around; */
     /* align-items: center; */
     min-height: 10vh;
     min-width: 100vw;
@@ -28,9 +28,9 @@ nav{
 @media only screen and (max-width: 500px ) {
 
     .toggleButton{
-        position: static;
-        margin:0px;
-        padding: 0px;
+        
+        position: sticky;
+        margin-left: 1em;
     }
 /* 
     .slide-nav{
