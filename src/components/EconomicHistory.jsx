@@ -1,13 +1,21 @@
 import React, {useState, useEffect} from 'react'
 import './EconomicHistory.css'
-import {Line} from 'react-chartjs-2'
+import { Chart } from 'chart.js';
+import {Bar} from 'react-chartjs-2'
+import zoomPlugin  from 'chartjs-plugin-zoom'
+
+Chart.register(zoomPlugin);
 
 export const EconomicHistory = () => {
+
     
+
     const [firstMidCentury, setFirstMidCentury] = useState ({})
     const [SecondMidCentury, setSecondMidCentury] = useState ({})
     let chartYears = []
     let chartYears2 = []
+
+
 
     const historicInflation = ()=>{
         let year = 1900
@@ -40,7 +48,7 @@ let yearsList2 = chartYears2.map(years =>  (years))
                           2,3,5,6,1,0,20,19,30,25,
                           30,40,49,5,5,10],
                     backgroundColor:['rgba(75,123,324,0.6)'],
-                    borderWidth: 4
+                    // borderWidth: 4
                 }
             ]
         })
@@ -72,32 +80,57 @@ let yearsList2 = chartYears2.map(years =>  (years))
     return (
         <div>
 
-            <h1>econ history</h1>
 
 
             <div className="inflation">
-                <Line data={firstMidCentury} options={{
+                <Bar data={firstMidCentury} options={{
                     responsive:true,
                     title: {text: 'inflation', display:true},
-                    scales:{
+                    scales: {
                         yAxes: [
-                            {
-                                ticks:{
-                                    autoSkip:true,
-                                    maxTicksLimit:2,
-                                    beginAtZero:true
-                                },
-                                gridLines:{
-                                    display:false,
-                                }
-                            }
-                        ]
-                    }
+                          {
+                            ticks: {
+                              autoSkip: true,
+                              maxTicksLimit: 10,
+                              beginAtZero: true,
+                            },
+                            gridLines: {
+                              display: false,
+                            },
+                          },
+                        ],
+                        xAxes: [
+                          {
+                            gridLines: {
+                              display: false,
+                            },
+                          },
+                        ],
+                   
+                      },
+                     
+                      plugins: {
+                        zoom: {
+                          zoom: {
+                            wheel: {
+                              enabled: true // zoom sroll 
+                            },
+                            mode: "xy",
+                            speed: 100
+                          },
+                          pan: {
+                            enabled: true,
+                            mode: "xy",
+                            speed: 100
+                          }
+                        }
+                      }
+
                 }}/>
             </div>
 
             <div className="inflation2">
-                <Line data={SecondMidCentury} options={{
+                <Bar data={SecondMidCentury} options={{
                     responsive:true,
                     title: {text: 'inflation', display:true},
                     scales:{
@@ -113,7 +146,25 @@ let yearsList2 = chartYears2.map(years =>  (years))
                                 }
                             }
                         ]
-                    }
+                        
+                    },
+                    plugins: {
+                        zoom: {
+                          zoom: {
+                            wheel: {
+                              enabled: true // zoom sroll 
+                            },
+                            mode: "xy",
+                            speed: 100
+                          },
+                          pan: {
+                            enabled: true,
+                            mode: "xy",
+                            speed: 100
+                          }
+                        }
+                      }
+                    
                 }}/>
             </div>
 
