@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/argentina-economy/static/css/main.02532ef2.chunk.css",
-    "main.js": "/argentina-economy/static/js/main.7c6cdda7.chunk.js",
-    "main.js.map": "/argentina-economy/static/js/main.7c6cdda7.chunk.js.map",
+    "main.css": "/argentina-economy/static/css/main.bec4bfb5.chunk.css",
+    "main.js": "/argentina-economy/static/js/main.58fc7106.chunk.js",
+    "main.js.map": "/argentina-economy/static/js/main.58fc7106.chunk.js.map",
     "runtime-main.js": "/argentina-economy/static/js/runtime-main.3320d8d9.js",
     "runtime-main.js.map": "/argentina-economy/static/js/runtime-main.3320d8d9.js.map",
-    "static/js/2.1821d462.chunk.js": "/argentina-economy/static/js/2.1821d462.chunk.js",
-    "static/js/2.1821d462.chunk.js.map": "/argentina-economy/static/js/2.1821d462.chunk.js.map",
+    "static/js/2.8c72f355.chunk.js": "/argentina-economy/static/js/2.8c72f355.chunk.js",
+    "static/js/2.8c72f355.chunk.js.map": "/argentina-economy/static/js/2.8c72f355.chunk.js.map",
     "static/js/3.f835a0c8.chunk.js": "/argentina-economy/static/js/3.f835a0c8.chunk.js",
     "static/js/3.f835a0c8.chunk.js.map": "/argentina-economy/static/js/3.f835a0c8.chunk.js.map",
     "index.html": "/argentina-economy/index.html",
-    "static/css/main.02532ef2.chunk.css.map": "/argentina-economy/static/css/main.02532ef2.chunk.css.map",
-    "static/js/2.1821d462.chunk.js.LICENSE.txt": "/argentina-economy/static/js/2.1821d462.chunk.js.LICENSE.txt"
+    "static/css/main.bec4bfb5.chunk.css.map": "/argentina-economy/static/css/main.bec4bfb5.chunk.css.map",
+    "static/js/2.8c72f355.chunk.js.LICENSE.txt": "/argentina-economy/static/js/2.8c72f355.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.3320d8d9.js",
-    "static/js/2.1821d462.chunk.js",
-    "static/css/main.02532ef2.chunk.css",
-    "static/js/main.7c6cdda7.chunk.js"
+    "static/js/2.8c72f355.chunk.js",
+    "static/css/main.bec4bfb5.chunk.css",
+    "static/js/main.58fc7106.chunk.js"
   ]
 }
