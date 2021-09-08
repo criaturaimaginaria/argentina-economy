@@ -8,14 +8,32 @@
 
 @media only screen and (max-width: 500px ) {
 .slide-nav{
+    font-size: 1.2em;
     display: inline-block;
     width: 50vw;
     height: 100vh;
-    background-color: rgba(179, 0, 0, 0.527);
+    background-color: rgba(59, 9, 138, 0.582);
+    /* border-right:4.5px solid rgb(98, 0, 0); */
     position: sticky;
+
     transition: 0.4s ease-in-out;
 }
+
+.slide-nav ul{
+    padding-top: 2em;
+}
+.slide-nav li{
+    
+    padding-top: 2em;
+}
+
+.slide-nav a:hover{
+    display: inline-block;
+    color: rgb(204, 204, 204);
+}
+
 .slide-nav-negative{
+    font-size: 1.2em;
     margin-left: -50vw;
     display: block;
     width: 50vw;
@@ -25,6 +43,12 @@
     transition: 0.7s ease-in-out;
 }
 
+.slide-nav-negative ul{
+    padding-top: 2em;
+}
+.slide-nav-negative li{  
+    padding-top: 2em;
+}
 
 .nav-list2 {
     display: inline-block;

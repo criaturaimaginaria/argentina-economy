@@ -4,9 +4,9 @@ nav{
     display: flex;
     /* justify-content: space-around; */
     /* align-items: center; */
-    min-height: 10vh;
+    min-height: 15vh;
     min-width: 100vw;
-    background: rgb(60, 0, 255);
+    background: rgb(33, 5, 124);
 }
 
 .nav-list {
@@ -19,10 +19,17 @@ nav{
 }
 
 .nav-list a{
-    
     text-decoration: none;
     color: white;
+    font-size: 1.4em;
+    transition: 0.3s;
 }
+.nav-list a:hover{
+    color: rgb(208, 228, 255);
+    text-decoration: none;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+
 .toggleButton{
     display: none;
 }

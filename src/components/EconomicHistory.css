@@ -1,8 +1,18 @@
-
 .inflation{
     width: 65vw;
+    background-color: rgb(233, 233, 233);
+    border-radius: 1em;
+    margin-top: 1em;
+
 }
 
 .inflation2{
     width: 65vw;
+    background-color: rgb(233, 233, 233);
+    color: black;
+    margin-top: 1em;
+}
+
+#pruebas{
+    background-color: rgb(163, 163, 163);
 }
