@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/criaturaimaginaria/argentina-economy/static/css/main.132dd454.chunk.css",
-    "main.js": "/criaturaimaginaria/argentina-economy/static/js/main.47d58e9f.chunk.js",
-    "main.js.map": "/criaturaimaginaria/argentina-economy/static/js/main.47d58e9f.chunk.js.map",
-    "runtime-main.js": "/criaturaimaginaria/argentina-economy/static/js/runtime-main.fd4aa47f.js",
-    "runtime-main.js.map": "/criaturaimaginaria/argentina-economy/static/js/runtime-main.fd4aa47f.js.map",
-    "static/js/2.227e1a71.chunk.js": "/criaturaimaginaria/argentina-economy/static/js/2.227e1a71.chunk.js",
-    "static/js/2.227e1a71.chunk.js.map": "/criaturaimaginaria/argentina-economy/static/js/2.227e1a71.chunk.js.map",
-    "static/js/3.f835a0c8.chunk.js": "/criaturaimaginaria/argentina-economy/static/js/3.f835a0c8.chunk.js",
-    "static/js/3.f835a0c8.chunk.js.map": "/criaturaimaginaria/argentina-economy/static/js/3.f835a0c8.chunk.js.map",
-    "index.html": "/criaturaimaginaria/argentina-economy/index.html",
-    "static/css/main.132dd454.chunk.css.map": "/criaturaimaginaria/argentina-economy/static/css/main.132dd454.chunk.css.map",
-    "static/js/2.227e1a71.chunk.js.LICENSE.txt": "/criaturaimaginaria/argentina-economy/static/js/2.227e1a71.chunk.js.LICENSE.txt"
+    "main.css": "/argentina-economy/static/css/main.132dd454.chunk.css",
+    "main.js": "/argentina-economy/static/js/main.47d58e9f.chunk.js",
+    "main.js.map": "/argentina-economy/static/js/main.47d58e9f.chunk.js.map",
+    "runtime-main.js": "/argentina-economy/static/js/runtime-main.3320d8d9.js",
+    "runtime-main.js.map": "/argentina-economy/static/js/runtime-main.3320d8d9.js.map",
+    "static/js/2.227e1a71.chunk.js": "/argentina-economy/static/js/2.227e1a71.chunk.js",
+    "static/js/2.227e1a71.chunk.js.map": "/argentina-economy/static/js/2.227e1a71.chunk.js.map",
+    "static/js/3.f835a0c8.chunk.js": "/argentina-economy/static/js/3.f835a0c8.chunk.js",
+    "static/js/3.f835a0c8.chunk.js.map": "/argentina-economy/static/js/3.f835a0c8.chunk.js.map",
+    "index.html": "/argentina-economy/index.html",
+    "static/css/main.132dd454.chunk.css.map": "/argentina-economy/static/css/main.132dd454.chunk.css.map",
+    "static/js/2.227e1a71.chunk.js.LICENSE.txt": "/argentina-economy/static/js/2.227e1a71.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.fd4aa47f.js",
+    "static/js/runtime-main.3320d8d9.js",
     "static/js/2.227e1a71.chunk.js",
     "static/css/main.132dd454.chunk.css",
     "static/js/main.47d58e9f.chunk.js"
