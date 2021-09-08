@@ -1,11 +1,11 @@
 nav{
     height: 4vh;
-    width: 100vw;
+    width: 100%;
     display: flex;
     /* justify-content: space-around; */
     /* align-items: center; */
     min-height: 15vh;
-    min-width: 100vw;
+    /* min-width: 100vw; */
     background: rgb(33, 5, 124);
 }
 
