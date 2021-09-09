@@ -1,5 +1,5 @@
 
-import React, {useState} from 'react';
+import React from 'react';
 import  "./Partidas.css"
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, Area, AreaChart, fill } from 'recharts';
 
@@ -7,37 +7,29 @@ import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, Responsi
 
 export const Partidas = () => {
 
-    const [firstMidCentury, setFirstMidCentury] = useState ([])
+  
     let chartYears = []
-    let inflation = [12 ,43,5,76,3,231,432,453,54,5,,5,5,5,5,5,5,,5,5,5,5,5,,5,5,5,5,5,5,5,5,,5,5,5,5,5,5,5,,5,5,55,43,54,35,43,543,5,4,54,54,5,,5,5,4,4,4,4,4,4,,4,4,4,4]
-    let infl = []
+    let inflation = [9,-1,8,-3,0,8,4,2,4,1,
+        4,-1,1,0,8,10,15,25,-8,-8,
+        25,-10,-15,0,1,-1,-1,0,0,1,
+        1,-14,-10,11,-11,5,8,4,0,1,
+        2,3,5,6,1,0,20,19,30,25,
+        30,40,49,5,5,10]
+
 
 
 const historicInflation = ()=>{
      let year = 1900
-     let i = 0
-       for (i ; i < 56; i++){ 
-      
+       for (let i = 0; i < 56; i++){   
         chartYears.push({
             year: year + i,
             inflation: inflation[i]
         })
     } 
 } 
-// inflation.forEach(chartYears[infl].push(inflation))
 
-
-// const historicInflation = ()=>{
-//      let year = 1900
-//        for (year; year < 1956; year++){ 
-//         chartYears.push({
-//             year: year,
-//             inflations: infl[q].push(inflation)
-//         })
-//     } 
-// } 
-
-historicInflation(console.log(chartYears)) 
+historicInflation() 
+// historicInflation(console.log(chartYears)) 
 
 
     const data = [
@@ -85,16 +77,19 @@ historicInflation(console.log(chartYears))
         },
       ];
     return (
-        <div>
-            <h1>partidas</h1>
+        <div className="Partidas">
+            
+          <h1>120 años de história inflacionaria de la república Argentina </h1>
 
-            <div className="partidas"> 
+           <h2>1900 - 1955</h2>
+
+            <div className="chart1"> 
                 <ResponsiveContainer width="100%" aspect={2}>
-                    <LineChart
+                    <AreaChart
                     
                         width={500}
                         height={300}
-                        data={data}
+                        data={chartYears}
                         margin={{
                             top: 5,
                             right: 30,
@@ -103,15 +98,17 @@ historicInflation(console.log(chartYears))
                         }}
                         > 
                         <CartesianGrid strokeDasharray="3 3" />
-                        <XAxis dataKey="name" />
+                        <XAxis dataKey="year" />
+                        
                         <YAxis />
-                        <Area type="monotone" dataKey="uv" stroke="black" fill="#82ca9d"/>
+                        <Area type="monotone" dataKey="uv" stroke="black" fill="black" />
                         <Tooltip />
                         <Legend />
-                        <Line type="monotone" dataKey="pv" stroke="#8884d8" activeDot={{ r: 8 }} fill="#82ca9d"/>
-                        <Line type="monotone" dataKey="uv" stroke="#82ca9d" />
+                        {/* <Area fill="#8884d8" /> */}
+                        <Area  type="monotone" dataKey="inflation" stroke="blue"  fill="red"/>
+                        {/* <Line type="monotone" dataKey="uv" stroke="#82ca9d" /> */}
                     
-                    </LineChart>
+                    </AreaChart>
                 </ResponsiveContainer>
             </div>       
         </div>
