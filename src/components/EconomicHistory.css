@@ -38,3 +38,26 @@ h1{
    background-color: rgb(75,123,324);
    background-color: rgb(176, 200, 255);
 }
+
+@media only screen and (max-width: 500px) {
+
+    .inflation{
+        height: 50vh;
+        width: 95vw;
+    }
+    .inflation2{
+        height: 50vh;
+        width: 95vw;
+    }
+    .inflation3{
+        height: 50vh;
+        width: 95vw;
+    }
+   h1{
+       font-size: 1.2em;
+   }
+   h2{
+      font-size: 1em;
+   }
+
+}

@@ -45,7 +45,7 @@ historicInflation3()
 let yearsList3 = chartYears3.map(years =>  (years))
 
 
-Chart.defaults.font.size = 16;
+Chart.defaults.font.size = '16em';
     const chart = () => {
         setFirstMidCentury({
             labels: yearsList,
@@ -53,6 +53,7 @@ Chart.defaults.font.size = 16;
                 {
                     label: 'Inflation',
                     fill: true,
+                    
                     spanGaps:true,
                     tension: 0.5,
                     // borderColor: Utils.CHART_COLORS.red,
@@ -185,6 +186,10 @@ Chart.defaults.font.size = 16;
             <div className="inflation">
                 <Line data={firstMidCentury} options={{
                     responsive:true,
+                    maintainAspectRatio:false,
+            
+                    onResize:null,
+                    height:500,
                     title: {text: 'Inflation', display:true},
                     scales: {
                         yAxes: [
@@ -194,6 +199,7 @@ Chart.defaults.font.size = 16;
                               maxTicksLimit: 10,
                               beginAtZero: true,
                             },
+                            
                             gridLines: {
                               display: false,
                             },
@@ -234,6 +240,7 @@ Chart.defaults.font.size = 16;
             <div className="inflation2">
                 <Line data={SecondMidCentury} options={{
                     responsive:true,
+                    maintainAspectRatio:false,
                     title: {text: 'inflation', display:true},
                     scales:{
                         yAxes: [
@@ -277,6 +284,7 @@ Chart.defaults.font.size = 16;
 <div className="inflation3">
     <Bar data={XXIcentury} options={{
         responsive:true,
+        maintainAspectRatio:false,
         title: {text: 'inflation', display:true},
         scales:{
             yAxes: [
