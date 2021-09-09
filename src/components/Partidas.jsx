@@ -1,16 +1,50 @@
 
-import React from 'react';
+import React, {useState} from 'react';
 import  "./Partidas.css"
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, Area, AreaChart, fill } from 'recharts';
 
 
 
 export const Partidas = () => {
+
+    const [firstMidCentury, setFirstMidCentury] = useState ([])
+    let chartYears = []
+    let inflation = [12 ,43,5,76,3,231,432,453,54,5,,5,5,5,5,5,5,,5,5,5,5,5,,5,5,5,5,5,5,5,5,,5,5,5,5,5,5,5,,5,5,55,43,54,35,43,543,5,4,54,54,5,,5,5,4,4,4,4,4,4,,4,4,4,4]
+    let infl = []
+
+
+const historicInflation = ()=>{
+     let year = 1900
+     let i = 0
+       for (i ; i < 56; i++){ 
+      
+        chartYears.push({
+            year: year + i,
+            inflation: inflation[i]
+        })
+    } 
+} 
+// inflation.forEach(chartYears[infl].push(inflation))
+
+
+// const historicInflation = ()=>{
+//      let year = 1900
+//        for (year; year < 1956; year++){ 
+//         chartYears.push({
+//             year: year,
+//             inflations: infl[q].push(inflation)
+//         })
+//     } 
+// } 
+
+historicInflation(console.log(chartYears)) 
+
+
     const data = [
         {
           name: 'Page A',
           uv: 4000,
-          pv: 2400,
+          pv: -2400,
           amt: 2400,
         },
         {
