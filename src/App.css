@@ -11,7 +11,17 @@ body{
   rgba(198,255,250,1) 30%, rgba(199,255,221,1) 63%, rgba(183,214,255,1) 100%); */
 }
 
+.img{
+  position:sticky;
+  background-image:url("./subNav.jpg");
+  background-size: cover;
+  width: 100vw;
+  height: 40vh;
+  /* z-index: 0; */
+}
+
 .App-logo {
+  
   height: 40vmin;
   pointer-events: none;
 }
