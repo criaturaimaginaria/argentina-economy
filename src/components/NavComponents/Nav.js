@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import './Nav.css';
 import './SlideNav.css';
 import {Link} from 'react-router-dom'
@@ -7,12 +7,25 @@ import SlideNav from './SlideNav';
 
 
 export const Nav = () => {
-    const [toggle, setToggle] = useState (false)
-        
 
-    // useEffect(()=>{
-    //   console.log(toggle) 
-    // });
+    
+
+ 
+    const [toggle, setToggle] = useState (false)
+    const [navScroll, setNavScroll] = useState    ("nav")
+
+    const scrollColor = () =>{
+        setNavScroll("navScroll")
+    }
+
+    useEffect(()=>{
+        window.addEventListener("scroll", scrollColor)
+        
+        return () => window.removeEventListener("scroll", scrollColor)
+    }, []);
+
+console.log(navScroll)
+    
 
     const toggleState = () => {
         setToggle(!toggle)
@@ -20,7 +33,7 @@ export const Nav = () => {
      
 
     return (
-        <nav>
+        <nav className={navScroll}>
 
            
        <SlideNav toggleNav ={toggle} />

@@ -1,4 +1,4 @@
-nav{
+.nav{
     position: fixed;
     z-index: 5;
     height: 4vh;
@@ -8,7 +8,21 @@ nav{
     /* align-items: center; */
     min-height: 15vh;
     /* min-width: 100vw; */
-    background: rgba(33, 5, 124, 0.486);
+    background: rgba(33, 5, 124, 0);
+    transition: 1s;
+}
+.navScroll{
+    position: fixed;
+    z-index: 5;
+    height: 4vh;
+    width: 100%;
+    display: flex;
+    /* justify-content: space-around; */
+    /* align-items: center; */
+    min-height: 15vh;
+    /* min-width: 100vw; */
+    background: rgba(39, 0, 212, 0.671);
+    transition: 1s;
 }
 
 .nav-list {
