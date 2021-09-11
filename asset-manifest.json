@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/argentina-economy/static/css/main.8ee9738f.chunk.css",
-    "main.js": "/argentina-economy/static/js/main.f351f0ca.chunk.js",
-    "main.js.map": "/argentina-economy/static/js/main.f351f0ca.chunk.js.map",
+    "main.css": "/argentina-economy/static/css/main.d7dddb0c.chunk.css",
+    "main.js": "/argentina-economy/static/js/main.6974db13.chunk.js",
+    "main.js.map": "/argentina-economy/static/js/main.6974db13.chunk.js.map",
     "runtime-main.js": "/argentina-economy/static/js/runtime-main.07237b52.js",
     "runtime-main.js.map": "/argentina-economy/static/js/runtime-main.07237b52.js.map",
-    "static/js/2.53420c96.chunk.js": "/argentina-economy/static/js/2.53420c96.chunk.js",
-    "static/js/2.53420c96.chunk.js.map": "/argentina-economy/static/js/2.53420c96.chunk.js.map",
+    "static/js/2.9a283846.chunk.js": "/argentina-economy/static/js/2.9a283846.chunk.js",
+    "static/js/2.9a283846.chunk.js.map": "/argentina-economy/static/js/2.9a283846.chunk.js.map",
     "static/js/3.997d588a.chunk.js": "/argentina-economy/static/js/3.997d588a.chunk.js",
     "static/js/3.997d588a.chunk.js.map": "/argentina-economy/static/js/3.997d588a.chunk.js.map",
     "index.html": "/argentina-economy/index.html",
-    "static/css/main.8ee9738f.chunk.css.map": "/argentina-economy/static/css/main.8ee9738f.chunk.css.map",
-    "static/js/2.53420c96.chunk.js.LICENSE.txt": "/argentina-economy/static/js/2.53420c96.chunk.js.LICENSE.txt"
+    "static/css/main.d7dddb0c.chunk.css.map": "/argentina-economy/static/css/main.d7dddb0c.chunk.css.map",
+    "static/js/2.9a283846.chunk.js.LICENSE.txt": "/argentina-economy/static/js/2.9a283846.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/argentina-economy/static/media/subNav.d6d5b79c.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.07237b52.js",
-    "static/js/2.53420c96.chunk.js",
-    "static/css/main.8ee9738f.chunk.css",
-    "static/js/main.f351f0ca.chunk.js"
+    "static/js/2.9a283846.chunk.js",
+    "static/css/main.d7dddb0c.chunk.css",
+    "static/js/main.6974db13.chunk.js"
   ]
 }
