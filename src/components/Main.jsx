@@ -11,7 +11,7 @@ export const Main = () => {
                 <h1>Main</h1>
 
               <Card />
-          
+              <h1>Main</h1>
         </div>
     )
 }
