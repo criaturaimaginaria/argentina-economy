@@ -1,6 +1,7 @@
 nav{
-    position: absolute; 
-    z-index: 5;
+    position: sticky; 
+    top:0;
+    z-index: 1;
     height: 4vh;
     width: 100%;
     display: flex;
@@ -14,6 +15,8 @@ nav{
 
 
 .nav-list {
+    position: sticky;
+    top: 0;
     list-style: none;
     width: 45%;
     display: flex;

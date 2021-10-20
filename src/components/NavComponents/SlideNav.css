@@ -1,33 +1,29 @@
 .slide-nav{
-   
    display: none;
 }
 
 .nav-list2 {
-    
    display: none;
 }
 
-@media only screen and (max-width: 500px ) {
+@media only screen and (max-width: 750px ) {
 .slide-nav{
-    z-index: 2;
+    z-index: 10;
     font-size: 1.2em;
     display: inline-block;
     width: 50vw;
     height: 100vh;
-    background-color: rgba(59, 9, 138, 0.582);
+    background-color: rgba(149, 121, 84, 0.849);
     /* border-right:4.5px solid rgb(98, 0, 0); */
-    position: sticky;
-
+  
     transition: 0.4s ease-in-out;
 }
 
 .slide-nav ul{
-    z-index: 2;
+    z-index: 10;
     padding-top: 2em;
 }
 .slide-nav li{
-  
     padding-top: 2em;
 }
 
@@ -43,7 +39,6 @@
     width: 50vw;
     height: 100vh;
     background-color: rgba(179, 0, 0, 0);
-    position:sticky;
     transition: 0.7s ease-in-out;
 }
 

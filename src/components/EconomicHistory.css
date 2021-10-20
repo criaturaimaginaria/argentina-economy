@@ -1,12 +1,14 @@
 
 .EconHis{
     position: sticky;
+    z-index: 2;
     margin: 0px;
     padding: 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: rgb(34, 31, 31);
 }
 
 h1{

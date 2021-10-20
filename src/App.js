@@ -2,7 +2,7 @@ import './App.css';
 import Main from './components/Main' 
 import EconomicHistory from './components/EconomicHistory';
 import Nav from './components/NavComponents/Nav';
-import Hola from './components/Hola.jsx'
+
 
 
 
@@ -18,7 +18,7 @@ function App() {
     <div className="App">
       
      
-   
+ 
 <HashRouter>
 
       <Nav />
