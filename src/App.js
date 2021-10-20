@@ -2,7 +2,9 @@ import './App.css';
 import Main from './components/Main' 
 import EconomicHistory from './components/EconomicHistory';
 import Nav from './components/NavComponents/Nav';
-import Img from './components/Img';
+import Hola from './components/Hola.jsx'
+
+
 
 // import  SlideNav  from './components/NavComponents/SlideNav';
 // for common hosts
@@ -15,8 +17,8 @@ function App() {
   return (
     <div className="App">
       
-      <Img />
-    
+     
+   
 <HashRouter>
 
       <Nav />

@@ -1,6 +1,6 @@
 import React, {} from 'react'
 import './Main.css'
-
+import Card from './Card.jsx';
 
 export const Main = () => {
 
@@ -10,7 +10,7 @@ export const Main = () => {
           
                 <h1>Main</h1>
 
-              
+              <Card />
           
         </div>
     )
