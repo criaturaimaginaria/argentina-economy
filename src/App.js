@@ -1,10 +1,8 @@
 import './App.css';
 import Main from './components/Main' 
 import EconomicHistory from './components/EconomicHistory';
-import Partidas from './components/Partidas';
-import Social from './components/Social';
 import Nav from './components/NavComponents/Nav';
-
+import Img from './components/Img';
 
 // import  SlideNav  from './components/NavComponents/SlideNav';
 // for common hosts
@@ -17,25 +15,25 @@ function App() {
   return (
     <div className="App">
       
+      <Img />
     
 <HashRouter>
 
       <Nav />
 
-      <div className="img"> </div>
+       <div className="img"></div>
+       
        
       {/* <SlideNav /> */}
         <Switch>
             <Route exact path="/" exact component={Main}/>
             <Route path="/components/Main" exact component={Main}/>
             <Route path="/components/EconomicHistory" exact component={EconomicHistory}/>
-            <Route path="/components/Partidas" exact component={Partidas}/>
-            <Route path="/components/Social" exact component={Social}/>
-            <Social />
         </Switch>  
-        
+       
 </HashRouter>   
 
+    
     </div>
   );
 }

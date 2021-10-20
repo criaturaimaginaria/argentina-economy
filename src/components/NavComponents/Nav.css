@@ -1,5 +1,5 @@
-.nav{
-    position: fixed;
+nav{
+    position: absolute; 
     z-index: 5;
     height: 4vh;
     width: 100%;
@@ -8,25 +8,12 @@
     /* align-items: center; */
     min-height: 15vh;
     /* min-width: 100vw; */
-    background: rgba(33, 5, 124, 0);
+    background: rgba(255, 255, 255, 0);
     transition: 1s;
 }
-.navScroll{
-    position: fixed;
-    z-index: 5;
-    height: 4vh;
-    width: 100%;
-    display: flex;
-    /* justify-content: space-around; */
-    /* align-items: center; */
-    min-height: 15vh;
-    /* min-width: 100vw; */
-    background: rgba(39, 0, 212, 0.671);
-    transition: 1s;
-}
+
 
 .nav-list {
-
     list-style: none;
     width: 45%;
     display: flex;

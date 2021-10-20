@@ -18,12 +18,6 @@ export const SlideNav = (props) => {
                 <Link to='/components/EconomicHistory'>
                     <li>EconHist</li>
                 </Link>
-                <Link to='/components/Partidas'>
-                    <li>Partidas</li>
-                </Link>
-                <Link to='/components/Social'>
-                    <li>Social</li>
-                </Link>
             </ul>
             
         </div>

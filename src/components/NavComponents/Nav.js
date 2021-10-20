@@ -9,23 +9,8 @@ import SlideNav from './SlideNav';
 export const Nav = () => {
 
     
-
- 
     const [toggle, setToggle] = useState (false)
-    const [navScroll, setNavScroll] = useState    ("nav")
-
-    const scrollColor = () =>{
-        setNavScroll("navScroll")
-    }
-
-    useEffect(()=>{
-        window.addEventListener("scroll", scrollColor)
-        
-        return () => window.removeEventListener("scroll", scrollColor)
-    }, []);
-
-console.log(navScroll)
-    
+  
 
     const toggleState = () => {
         setToggle(!toggle)
@@ -33,7 +18,7 @@ console.log(navScroll)
      
 
     return (
-        <nav className={navScroll}>
+        <nav >
 
            
        <SlideNav toggleNav ={toggle} />
@@ -46,12 +31,6 @@ console.log(navScroll)
                 </Link>
                 <Link to='/components/EconomicHistory'>
                     <li>EconHist</li>
-                </Link>
-                <Link to='/components/Partidas'>
-                    <li>Partidas</li>
-                </Link>
-                <Link to='/components/Social'>
-                    <li>Social</li>
                 </Link>
 
                 

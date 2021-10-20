@@ -1,10 +1,12 @@
 
 .App {
   text-align: center;
-  
+position: sticky;
 }
 
 body{
+ 
+  background-color: rgb(34, 31, 31);
   /* background-color: rgb(255, 255, 255); */
   /* background: rgb(255,255,255);
   background: linear-gradient(126deg, rgba(255,255,255,1) 0%,
@@ -12,19 +14,14 @@ body{
 }
 
 .img{
-  position:sticky;
-  background-image:url("./subNav.jpg");
+  position: sticky;
+  background-image:url("./subNav.jpg") ; 
   background-size: cover;
   width: 100vw;
   height: 40vh;
   /* z-index: 0; */
 }
 
-.App-logo {
-  
-  height: 40vmin;
-  pointer-events: none;
-}
 
 
 
