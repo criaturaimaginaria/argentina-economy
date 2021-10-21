@@ -1,0 +1,21 @@
+.chart{
+   position: relative;
+    width: 35vw;
+    height: 25vh; 
+    /* background-color: rgba(181, 231, 1, 0.897); */
+    margin: 3em;
+    transition: all .1s;
+}
+
+
+
+@media only screen and (max-width: 700px) {
+    .chart{
+        width: 80vw;
+        height: 25vh;
+        background-color: rgba(105, 0, 0, 0);
+      
+    }
+ 
+ }
+ 
