@@ -27,7 +27,9 @@ transition: 0.5s;
     box-shadow:  0 0 30px rgba(0, 0, 0, 0.089);
 } */
 
-.title{
+.title{ 
+    width: 45vw;
+    height: 35vh;
     margin: 2em;
     /* width: 250px;
     height: 300px; */
@@ -69,6 +71,8 @@ transition: 0.5s;
     transition: all .4s;
 }
 
+
+
 .title:before{
     top:0;
     right:0;
@@ -90,3 +94,73 @@ transition: 0.5s;
     transform: translate(-20px,20px);
     border-radius: 50%;
 }
+
+/* ------------------------ */
+.content2::after{
+    content:'';
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    background: rgba(133, 24, 124, 0);
+    z-index: -20;
+    transition: all .4s;
+}
+
+.content2:hover::after{
+    width: 11em;
+    height: 11em;
+    background: rgb(133, 24, 124);
+    /* transform: translate(-1em,1em); */
+    border-radius: 50%;
+    animation: content-animation 33s cubic-bezier(.43,.73,.41,.19);
+}
+
+@keyframes content-animation{
+    0%{
+        transform: rotateX(0);
+        border-radius: 12% 88% 11% 89% / 89% 8% 92% 11% ;
+    }
+    10%{
+        transform: rotateX(50);
+        border-radius:75% 25% 23% 77% / 65% 23% 77% 35%  ;
+    }
+    20%{
+        transform: rotateX(50);
+        border-radius:75% 25% 73% 27% / 47% 73% 27% 53%  ;
+    }
+    30%{
+        transform: rotateX(50);
+        border-radius:11% 89% 14% 86% / 87% 13% 87% 13%  ;
+    }
+    40%{
+        transform: rotateX(50);
+        border-radius:80% 20% 77% 23% / 31% 45% 55% 69%  ;
+    }
+    50%{
+        transform: rotateX(50);
+        border-radius:83% 17% 28% 72% / 20% 21% 79% 80%  ;
+    }
+  
+    60%{
+        transform: rotateX(50);
+        border-radius:80% 20% 77% 23% / 31% 45% 55% 69%  ;
+    }
+    70%{
+        transform: rotateX(50);
+        border-radius:11% 89% 14% 86% / 87% 13% 87% 13%  ;
+    }
+    80%{
+        transform: rotateX(50);
+        border-radius:75% 25% 73% 27% / 47% 73% 27% 53%   ;
+    }
+    90%{
+        transform: rotateX(50);
+        border-radius:75% 25% 23% 77% / 65% 23% 77% 35%  ;
+    }
+  
+    100%{
+        transform: rotateX(0);
+        border-radius: 12% 88% 11% 89% / 89% 8% 92% 11%;
+    }
+}
+/* ------------------- */
