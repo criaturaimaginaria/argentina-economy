@@ -75,7 +75,7 @@ historicInflation3()
     return (
         <div className="EconHis">
             
-          <h1>120 años de história inflacionaria de la república Argentina </h1>
+          <b>120 años de história inflacionaria de la república Argentina </b>
 
            <h2>1900 - 1955</h2>
 
@@ -93,7 +93,7 @@ historicInflation3()
                             bottom: 5,
                         }}
                         > 
-                        <CartesianGrid strokeDasharray="3 3" />
+                        <CartesianGrid strokeDasharray="0.1 1" />
                         <XAxis dataKey="year" />
                         
                         <YAxis />
@@ -124,13 +124,13 @@ historicInflation3()
                             bottom: 5,
                         }}
                         > 
-                        <CartesianGrid strokeDasharray="4" horizontal="true" vertical="true" />
+                        <CartesianGrid strokeDasharray="0.1 1" horizontal="true" vertical="true" />
                         <XAxis dataKey="year2" />
                         
                         <YAxis />
                         {/* <Area type="monotone" dataKey="uv" stroke="black" fill="black" /> */}
                         <Tooltip />
-                        <Legend width={100} wrapperStyle={{ top: 0, right: 0, backgroundColor: '#f5f5f5', border: '1px solid #d5d5d5', borderRadius: 3, lineHeight: '40px' }} />
+                        {/* <Legend width={100} wrapperStyle={{ top: 0, right: 0, backgroundColor: '#f5f5f5', border: '1px solid #d5d5d5', borderRadius: 3, lineHeight: '40px' }} /> */}
                         {/* <Area fill="#8884d8" /> */}
                         <Area  type="monotone" dataKey="inflation2" stroke="blue"  fill="rgb(0, 77, 200)"/>
                         {/* <Line type="monotone" dataKey="uv" stroke="#82ca9d" /> */}
@@ -139,7 +139,7 @@ historicInflation3()
                 </ResponsiveContainer>
             </div>     
 
-            <h2>2001 - 2021</h2>
+            <h2>2001 - 2020</h2>
         
 
             <div className="chart3"> 
@@ -156,13 +156,13 @@ historicInflation3()
                             bottom: 5,
                         }}
                         > 
-                        <CartesianGrid strokeDasharray="4" horizontal="true" vertical="" />
+                        <CartesianGrid strokeDasharray="0.1 1" horizontal="true" vertical="" />
                         <XAxis dataKey="year3" />
                         <YAxis />
                         <Tooltip />
-                        <Legend width={100} wrapperStyle={{ top: 0, right: 0, backgroundColor: '#f5f5f5', border: '1px solid #d5d5d5', borderRadius: 3, lineHeight: '20px' }} />
+                        {/* <Legend width={100} wrapperStyle={{ top: 0, right: 0, backgroundColor: '#f5f5f5', border: '1px solid #d5d5d5', borderRadius: 3, lineHeight: '20px' }} /> */}
                         {/* <Area fill="#8884d8" /> */}
-                        <Bar  type="monotone" dataKey="oficial" stroke="black"  fill="red"/>
+                        <Bar  type="monotone" dataKey="oficial" stroke="black"  fill="rgb(144, 0, 0)"/>
                         <Bar type="monotone" dataKey="paralela" stroke="black" fill="black" />
                     
                     </BarChart>

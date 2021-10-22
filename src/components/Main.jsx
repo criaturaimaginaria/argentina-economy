@@ -11,17 +11,17 @@ export const Main = () => {
 
             <div className="title">
                 <div className="content2">
-                    hola jajsjsjsjsjs
+                     Economic data 
                     <Title />
                 </div>
                 
             </div>
             
-            <h1>Ecoonomía argentina</h1>
+            <h1>Economía argentina</h1>
 
             <Card />
 
-            <h1>Main</h1>
+            <h2>Main</h2>
 
         </div>
     )

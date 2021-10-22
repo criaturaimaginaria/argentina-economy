@@ -27,10 +27,10 @@ export const Nav = () => {
 
             <ul className="nav-list">
                 <Link to='/components/Main'>
-                    <li>Main</li>
+                    <li>Inicio</li>
                 </Link>
                 <Link to='/components/EconomicHistory'>
-                    <li>EconHist</li>
+                    <li>Historia inflacionaria</li>
                 </Link>
 
                 
