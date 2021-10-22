@@ -7,8 +7,8 @@ export const Card = () => {
             
             <div className="content">
                 <h2>econ</h2>
-                <p> hola que tajkfdsaljfdsajkjflkdjkdsf
-                que tajkfdsaljfdsaj       
+                <p> História inflacionaria de la república Argentina desde 1900s hasta
+                    2020.      
                 </p>
 
             </div>

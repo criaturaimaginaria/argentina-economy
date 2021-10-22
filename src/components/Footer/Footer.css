@@ -1,0 +1,15 @@
+footer{
+    padding-top: 2em;
+    border-top: 1px solid #fff;
+    width: 100%;
+    height: 5em;
+    background-color: rgb(34, 31, 31);
+}
+
+footer li{
+    margin: 0.3em;
+    justify-content: center;
+    color: #fff;
+    list-style:none;
+    /* text-decoration:none; */
+}

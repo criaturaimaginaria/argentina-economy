@@ -2,6 +2,7 @@ import './App.css';
 import Main from './components/Main' 
 import EconomicHistory from './components/EconomicHistory';
 import Nav from './components/NavComponents/Nav';
+import Footer from './components/Footer/Footer.jsx';
 
 
 
@@ -35,6 +36,7 @@ function App() {
        
 </HashRouter>   
 
+    <Footer />
     
     </div>
   );
