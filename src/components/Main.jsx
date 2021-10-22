@@ -2,6 +2,7 @@ import React, {} from 'react'
 import './Main.css'
 import Card from './MainComponents/Card.jsx';
 import Title from './MainComponents/Title.jsx';
+import Card3 from './MainComponents/Card3.jsx';
 
 export const Main = () => {
 
@@ -21,7 +22,7 @@ export const Main = () => {
 
             <Card />
 
-            <h2>Main</h2>
+            <Card3 />
 
         </div>
     )

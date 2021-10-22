@@ -102,7 +102,7 @@ h1{
 .content2:hover::after{
     width: 11em;
     height: 11em;
-    background: rgb(133, 24, 124);
+    background: rgb(139, 71, 167);
     /* transform: translate(-1em,1em); */
     border-radius: 50%;
     animation: content-animation 33s cubic-bezier(.43,.73,.41,.19);

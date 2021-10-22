@@ -11,5 +11,15 @@ footer li{
     justify-content: center;
     color: #fff;
     list-style:none;
-    /* text-decoration:none; */
+    
+}
+
+li a{
+    color: #fff;
+    text-decoration:none;
+}
+li a:hover{
+    color: rgb(128, 61, 253);
+    text-decoration:none;
+    border-bottom: 2px solid rgb(128, 61, 253);
 }

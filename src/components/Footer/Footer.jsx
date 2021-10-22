@@ -6,7 +6,7 @@ export const Footer = () => {
         <div>
             <footer>
                 <li>Contact: valkjavalkja@gmail.com</li>
-                <li>Github</li> 
+                <li><a href="https://github.com/criaturaimaginaria">Github</a></li> 
             </footer>
             
         </div>
