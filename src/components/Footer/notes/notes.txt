@@ -1,0 +1,25 @@
+Hi, how are you ? nice to meet you.
+
+-///----how long have you´ve been working with reactjs ?-------------------------------
+
+Well, I´ve been working with reactjs I think for at least 8 months I think.
+
+-///---- Experience with UI/UX, Postgres, and Typescript?---------------------
+
+Well, no, I have not worket with those technologies
+
+-///---- Working in an agile environment and collaborating with product team members.--------
+
+No, I have not really worket in a team like that, but I would love to give it 
+a try and offer the best I can do to achieve the different things I must do.
+
+-///----Understanding of semantic HTML5 and the DOM--------------------------------
+
+yes, the semantic tags are very important, because they can put your web in a better
+or a worse positionn
+
+
+well, how much do you want to pay me?
+I´m asking because I do not want o ask too much or too little
+
+
