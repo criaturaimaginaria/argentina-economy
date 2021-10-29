@@ -101,7 +101,7 @@ historicInflation3()
                         <Tooltip />
                         
                         {/* <Area fill="#8884d8" /> */}
-                        <Area  type="monotone" dataKey="inflation" stroke="rgb(132, 0, 184)"  fill="rgb(0, 77, 200)"/>
+                        <Area  type="monotone" dataKey="inflation" stroke="rgb(132, 0, 184)"  fill="rgb(42, 110, 219)"/>
                         {/* <Line type="monotone" dataKey="uv" stroke="#82ca9d" /> */}
                     
                     </AreaChart>
@@ -132,7 +132,7 @@ historicInflation3()
                         <Tooltip />
                         {/* <Legend width={100} wrapperStyle={{ top: 0, right: 0, backgroundColor: '#f5f5f5', border: '1px solid #d5d5d5', borderRadius: 3, lineHeight: '40px' }} /> */}
                         {/* <Area fill="#8884d8" /> */}
-                        <Area  type="monotone" dataKey="inflation2" stroke="blue"  fill="rgb(0, 77, 200)"/>
+                        <Area  type="monotone" dataKey="inflation2" stroke="blue"  fill="rgb(42, 110, 219)"/>
                         {/* <Line type="monotone" dataKey="uv" stroke="#82ca9d" /> */}
                     
                     </AreaChart>
@@ -162,8 +162,8 @@ historicInflation3()
                         <Tooltip />
                         {/* <Legend width={100} wrapperStyle={{ top: 0, right: 0, backgroundColor: '#f5f5f5', border: '1px solid #d5d5d5', borderRadius: 3, lineHeight: '20px' }} /> */}
                         {/* <Area fill="#8884d8" /> */}
-                        <Bar  type="monotone" dataKey="oficial" stroke="black"  fill="rgb(144, 0, 0)"/>
-                        <Bar type="monotone" dataKey="paralela" stroke="black" fill="black" />
+                        <Bar  type="monotone" dataKey="oficial" stroke="black"  fill="rgb(42, 110, 219)"/>
+                        <Bar type="monotone" dataKey="paralela" stroke="black" fill="rgb(216, 152, 49)" />
                     
                     </BarChart>
                 </ResponsiveContainer>

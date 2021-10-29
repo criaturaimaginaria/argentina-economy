@@ -12,37 +12,37 @@
 }
 
 b{
-    color: rgb(167, 175, 177);
+    color: rgb(214, 217, 218);
     font-size: 2em;
     margin: 0.5em 0em 0em 0em;
 }
 h2{
-    color: rgb(167, 175, 177);
+    color: rgb(221, 213, 213);
     font-size: 1.3em;
     margin: 0.4em 0em 0.2em 0em;
 }
 
 .chart1{
     width: 85vw;
-    background-color: rgb(21, 5, 39);
-    border-radius: 1em;
+    background-color: rgb(240, 240, 240);
+    border-radius: 0.5em;
     margin: 0em 0em 1.8em 0em;
 }
 .chart2{
     width: 85vw;
-    background-color: rgb(21, 5, 39);
+    background-color: rgb(240, 240, 240);
     border-radius: 1em;
     margin: 0em 0em 1.8em 0em;
 }
 .chart3{
     width: 85vw;
-    background-color: rgb(32, 9, 58);
+    background-color: rgb(240, 240, 240);
     border-radius: 1em;
     margin: 0em 0em 1.8em 0em;
 }
 
 .prueba{
-    background-color: rgb(144, 0, 0);
+    background-color: rgb(216, 152, 49);
 }
 
 

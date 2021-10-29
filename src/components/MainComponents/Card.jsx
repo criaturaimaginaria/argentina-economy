@@ -6,7 +6,7 @@ export const Card = () => {
         <div className="card">
             
             <div className="content">
-                <h2>econ</h2>
+                <h2>▼</h2>
                 <p> História inflacionaria de la república Argentina desde 1900s hasta
                     2020.      
                 </p>

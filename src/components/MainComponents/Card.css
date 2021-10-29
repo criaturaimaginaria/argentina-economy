@@ -34,7 +34,7 @@
     position: absolute;
     width: 100%;
     height: 50%;
-    background: rgb(24, 79, 133);
+    background: rgb(233, 255, 110);
     z-index: -15;
     transition: all .4s;
 }
@@ -46,7 +46,7 @@
 .card::after{
     bottom:0;
     left: 0;
-    background: lightsteelblue;
+    background: rgb(162, 255, 219);
 }
 .card:hover::before{
     width:3em;
