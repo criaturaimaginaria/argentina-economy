@@ -1,6 +1,11 @@
 
 .EconHis{
     position: sticky;
+    position: -webkit-sticky;
+    position: -moz-sticky;
+    position: -o-sticky;
+    position: -ms-sticky; 
+    
     z-index: 2;
     margin: 0px;
     padding: 0px;

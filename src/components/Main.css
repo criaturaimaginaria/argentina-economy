@@ -1,6 +1,11 @@
 
 .main{
     position: sticky;
+    position: -webkit-sticky;
+    position: -moz-sticky;
+    position: -o-sticky;
+    position: -ms-sticky; 
+    
     background-color: rgb(34, 31, 31);
     z-index: 2;
     display: flex;
