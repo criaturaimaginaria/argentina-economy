@@ -22,7 +22,13 @@ export const Nav = () => {
 
            
        <SlideNav toggleNav ={toggle} />
-      <button onClick={toggleState } className="toggleButton" >hola !!ttt!!</button> 
+      <button onClick={toggleState } className="toggleButton" >
+            <div></div>    
+            <div></div>    
+            <div></div>    
+      </button>
+
+
         {/* <ToggleButton /> */}
 
             <ul className="nav-list">
